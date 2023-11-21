@@ -1594,6 +1594,8 @@ Maven 版本数据驱动可参考 demo：<https://github.com/Automation-Test-Sta
 > 配置文件会以 json 格式存储为例，其他格式如 YAML、CSV 等类似，均可参考
 
 ```bash
+// 进入src/test/resources目录
+cd src/test/resources
 // 新建测试配置文件夹
 mkdir config
 // 新建测试配置文件
@@ -1674,8 +1676,9 @@ touch response_data.json
 
 #### 更新测试用例来支持数据驱动
 
-- 更新测试用例
+>为做区分，这里在 src/test/java/com/example 下新建测试用例文件，文件名为 TestDemoDataDriving.java
 
+- 引入相关依赖类
 
 ### 多环境支持
 
